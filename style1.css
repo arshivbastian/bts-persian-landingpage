@@ -1,0 +1,335 @@
+@font-face {
+	font-family:'mi';
+	src:url('fonts/IranSans.ttf') format('ttf');	
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*mine*/
+body,html {
+	width:100%;
+	height:100%;
+}
+
+body {
+	direction:rtl;	
+	font:13px/25px 'mi' , 'Myraid Pro' , Tahoma ;
+}
+img {
+	max-width:100%;	
+}
+a {
+	transition:all 2s ease-in-out;
+	-webkit-transition:all 2s ease-in-out;
+	-o-transition:all 2s ease-in-out;
+	-moz-transition:all 2s ease-in-out;
+}
+.navbar-default {
+	width:100%;
+	background:transparent;
+	border-color: transparent;
+	border-bottom:1px solid #FFF;
+	opacity:0.3;
+	border-radius:0;	
+}
+header {
+	width:100%;
+	position:relative;
+	min-height:auto;
+	color:#FFF;
+	text-align:center;
+	background:url(img/mi3-3.jpg);
+	background-position:center;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;	
+}
+@media screen and (min-width:768px) {
+	header {	
+		min-height:100%;
+	}	
+}
+.navbar-default .navbar-nav > li > a {
+	color:#FF0;
+}
+.navbar-nav > li {
+	float:right;	
+}
+.navbar-default .navbar-brand {
+	color:#FC0;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-brand:hover {
+	color:#FFF;
+}
+.header-content {
+	padding :80px 150px;	
+}
+.header-content h1 {
+	font-size:50px;	
+}
+.header-content p {
+	margin-bottom: 50px;
+	font-size:18px;
+	line-height:40px;
+	color:#FFF;
+	opacity:0.7;	
+}
+.header-content hr {
+	max-width:50px;
+	border-color:#CC0;
+	border-width:3px;
+	margin:30px auto;
+}
+.btn {
+	border:0;
+	border-radius:300px;
+	padding:15px 30px;	
+}
+.btn-primary {
+	border-color:#CC0;
+	background-color:#CC0;	
+}
+.btn-primary:hover {
+	background-color:#C93;	
+}
+
+
+.about-section {
+	background-color:#C93;
+	padding:100px 0;
+	color:#FFF;	
+}
+.about-section h2 {
+	font-size:30px;
+	margin-top:100px;	
+}
+.about-section hr {
+	max-width:50px;
+	border-color:#FFF;
+	border-width:3px;
+	margin:70px auto;	
+}
+.about-section p {
+	color:#FFF;
+	opacity:.7;
+	margin-top:50px;
+	margin-bottom:100px;	
+}
+
+
+.services-section {
+	padding:100px 0 100px;
+	color:#222;
+		
+}
+.services-section h2 {
+	font-size:30px;
+	margin-bottom:50px;	
+}
+.services-section .glyphicon {
+	font-size:50px;
+	margin:100px auto;
+	color:#C93;
+}
+.services-section h3 {
+	font-size:24px;
+	margin:10px 0 50px;
+		
+}
+
+.no-padding {
+	padding:0;
+	margin-bottom:-10px;
+	padding-bottom:-10px;	
+}
+.pic {
+	display:block;
+	position:relative;
+	margin:0px auto;
+	max-width:650px;
+	background-color:#999;
+}
+
+.pic .pic-caption {
+	width:100%;
+	height:98%;
+	margin-bottom:8px;
+	text-align:center;
+	color:#FFF;
+	background-color:#C93;
+	position:absolute;
+	bottom:0;
+	opacity:0;
+	transition:all .2s ease-in-out;
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;	
+}
+.pic:hover .pic-caption {	
+	opacity:.7;
+}
+.pic .pic-caption .pic-caption-content{
+	width:100%;
+	position:absolute;
+	top:50%;
+	text-align:center;
+	transform:translateY(-50%);
+}
+.pic .pic-caption .pic-caption-content .category{
+	font-size:15px;
+	padding:10px 0;	
+}
+.pic .pic-caption .pic-caption-content .name{
+	font-size:25px;	
+}
+
+.more {
+	padding:12px 0px 30px;
+	text-align:center;
+	color:#FFF;
+	background-color:#999;	
+}
+.more h2 {
+	font-size:25px;
+	margin:25px 0px 25px;	
+}
+
+.contact {
+	padding:100px 0px;
+	color:#333;
+	float:right;
+	width:100%;	
+}
+.contact h2 {
+	font-size:30px;
+}
+.contact  hr {
+	padding-bottom:100px;
+	max-width:50px;
+	border-color:#CC0;
+	border-width:3px;
+	margin:30px auto;
+}
+.contact .glyphicon {
+	padding:150px 0px 30px;
+	font-size:30px;
+	color:#C93;
+}
+.contact span {
+	display:block;	
+}
+
+
+
+
+@media screen and (max-width: 721px) {
+	.header-content {
+		padding:0;	
+	}
+	.header-content h1 {
+		font-size:20px;	
+	}
+	.header-content p {
+		font-size:14px;
+		font-style:oblique;	
+	}
+	.header-content .btn {
+		margin-bottom:20px;
+	}
+	.navbar-nav > li {
+		float:none;	
+	}
+}
